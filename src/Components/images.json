@@ -1,0 +1,124 @@
+{
+  "team": [
+    {
+      "id": "1",
+      "image": "/images/Headerimage.png"
+    },
+    {
+      "id": "2",
+      "image": "/images/Headerimage1.png"
+    },
+    {
+      "id": "3",
+      "image": "/images/Headerimage2.png"
+    },
+    {
+      "id": "4",
+      "image": "/images/Headerimage.png"
+    }
+  ],
+
+  "title":
+  {
+    "title": "1 Kanal House For Sale In F-7/1, Islamabad"
+  },
+  "features": [
+    {
+      "id": 1,
+      "description": "Built year : 1990",
+      "image": "/images/1990.png"
+    },
+    {
+      "id": 3,
+      "description": "TV Lounge : 2 ",
+      "image": "/images/tv.png"
+    },
+    {
+      "id": 4,
+      "description": " Drawing room",
+      "image": "/images/drawingroom.png"
+    },
+    {
+      "id": 5,
+      "description": "living rooms : 2",
+      "image": "/images/sofa.png"
+    },
+    {
+      "id": 6,
+      "description": "Water Supply",
+      "image": "/images/drop.png"
+    },
+    {
+      "id": 7,
+      "description": "Store Room",
+      "image": "/images/home.png"
+    },
+    {
+      "id": 8,
+      "description": "Nearby Mosque",
+      "image": "/images/masjid.png"
+    },
+    {
+      "id": 9,
+      "description": "Nearby School",
+      "image": "/images/book.png"
+    },
+    {
+      "id": 10,
+      "description": "Internet access",
+      "image": "/images/group.png"
+    },
+    {
+      "id": 11,
+      "description": "Description",
+      "image": "/images/item2.jpg"
+    },
+    {
+      "id": 12,
+      "description": "Description",
+      "image": "/images/item2.jpg"
+    },
+    {
+      "id": 13,
+      "description": "Description",
+      "image": "/images/item2.jpg"
+    },
+    {
+        "id": 12,
+        "description": "Description",
+        "image": "/images/item2.jpg"
+      }
+  ],
+  "values": [
+    {
+      "id": "1",
+      "bed": "1"
+    },
+    {
+      "id": "2",
+      "shower": "1"
+    },
+    {
+      "id": "3",
+      "space": "10 marla"
+    },
+    {
+      "id": "4",
+      "home": "Flat"
+    },
+    {
+        "id": "5",
+        "pkr": "5 Lakh"      
+      },
+      {
+        "id": "6",
+        "days": "Added 5 days ago"
+      }
+
+  ],
+  "teamDescriptions": {
+    "description": "Brand new 4 bedroom 4 bathroom home with oven and access to roof. Building amenities includes 24/7 security, pool, spa, sauna and fitness center. Movies, florist, Pete's coffee, UPS, ATM, bookstore, restaurants on Plaza. Countless dining, shopping, entertainment options and not that you need a car with a Walk Score of 98. Steps to symphony, ballet, opera and Hayes Valley. On-site parking is available for lease.",
+    "condition": "Perfect - like new condition "
+  }
+
+}
