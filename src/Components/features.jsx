@@ -22,7 +22,7 @@ export default function Features() {
 
             <h2  className="mt-[58px] text-primary text-[18.84px] font-semibold font-['Poppins'] leading-loose">Features</h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 lg:w-[770px] gap-2 mt-[20px]">
+            <div className="grid grid-cols-2 w-[310px] sm:w-[470px] md:w-[630px] sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 lg:w-[770px] gap-2 mt-[20px]">
                 {itemsData.features.slice(0, showAll ? itemsData.features.length : 9).map(item => (
                     <div key={item.id} className="w-[150px] lg:h-[109.78px] bg-features bg-opacity-50 rounded-[9.46px]">
                         <img src={item.image} alt={`Item ${item.id}`} className="w-[30px] h-[37px] mt-[16px] ml-[11px]" />
@@ -33,7 +33,7 @@ export default function Features() {
                 ))}
                 {itemsData.features.length > 9 && (
                     <div className="text-center w-[150px] h-[109.78px] bg-features bg-opacity-50 rounded-[9.46px]">
-                        <button onClick={toggleShowAll} className="text-toggle text-[14px] cursor-pointer items-center justify-center mt-8">
+                        <button onClick={toggleShowAll} className="text-toggle text-[14px] cursor-pointer flex items-center mt-11 ml-5">
                             {showAll ? 'See less' : `+${itemsData.features.length - 9} More Features `}
                         </button>
                     </div>

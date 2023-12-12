@@ -16,22 +16,21 @@ export default function Pics() {
                     />
                     <div><img className='relative float-right bottom-8' src={"images/dill.png"} alt='dill' /></div>
                 </div>
-                <div className='hidden sm:flex sm:flex-col sm:gap-[10px] md:flex md:flex-col md:gap-[10px]  lg:flex lg:flex-col lg:gap-[10px]'>
-                <div className='absolute w-[55.50px] h-[34.03px] p-[10.21px] bg-black bg-opacity-50 rounded-[10.21px] justify-center items-center gap-[3.83px] inline-flex text-white float-left top-[590px]'>
-                                <img className='w-[14px] h-[13px] ' src={"/images/pics.png"} alt='pics' />
-                                <span>{teamsData.team.length}</span>
-                            </div>
+                <div className='hidden relative sm:flex sm:flex-col sm:gap-[10px] md:flex md:flex-col md:gap-[10px]  lg:flex lg:flex-col lg:gap-[10px]'>
+
                     {teamsData.team.slice(1, 3).map((team, index) => (
                         <div key={index} className=''>
-                            <Image className="w-[100%] h-[276px]"
+                            <Image className=" w-[100%] h-[276px]"
                                 src={team.image}
                                 alt={`Team ${index + 1}`}
                                 width={300}
                                 height={200} />
-                            
                         </div>
                     ))}
-
+                    <div className='absolute w-[55.50px] h-[34.03px] p-[10.21px] bg-black bg-opacity-50 rounded-[10.21px] justify-center items-center gap-[3.83px] inline-flex text-white right-[2%] top-[515px]'>
+                        <img className='w-[14px] h-[13px] ' src={"/images/pics.png"} alt='pics' />
+                        <span>{teamsData.team.length}</span>
+                    </div>
                 </div>
             </section>
 
