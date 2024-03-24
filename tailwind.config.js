@@ -21,8 +21,7 @@ module.exports = {
         toggle: '#E85451'
       },
       fontFamily: {
-        sans: ['var(--font-poppins)'],
-        poppins: ['Poppins', 'sans-serif'],
+        poppins: ["Poppins,san-serif"],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

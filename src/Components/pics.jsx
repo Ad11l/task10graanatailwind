@@ -35,7 +35,7 @@ export default function Pics() {
             </section>
 
             <div className='flex justify-between px-[100px] pt-[34px]'>
-                <p className="text-primary text-location font-poppins font-semibold leading-[38.13px]">
+                <p className="text-primary text-location font-['poppins'] font-semibold leading-[38.13px]">
                     {teamsData.title.title}</p>
                 <div className='hidden lg:flex lg:gap-[14px]  '>
                     <button type='submit' className='w-[151px] h-10 px-4 rounded-lg border border-primary justify-center items-center gap-2.5 inline-flex text-primary text-sm font-semibold uppercase leading-snug'>

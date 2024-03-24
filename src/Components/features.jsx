@@ -26,7 +26,7 @@ export default function Features() {
                 {itemsData.features.slice(0, showAll ? itemsData.features.length : 9).map(item => (
                     <div key={item.id} className="w-[150px] lg:h-[109.78px] bg-features bg-opacity-50 rounded-[9.46px]">
                         <img src={item.image} alt={`Item ${item.id}`} className="w-[30px] h-[37px] mt-[16px] ml-[11px]" />
-                        <p className="text-added text-sm font-normal leading-normal text-right w-[120px] mt-[25px] ">
+                        <p className="text-added text-sm  font-normal leading-normal text-right w-[120px] mt-[25px] ">
                             {item.description}
                         </p>
                     </div>

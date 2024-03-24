@@ -1,10 +1,19 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import { Poppins } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] })
+const poppins = Poppins({
+  subsets: ['latin'],
+  variable: 'poppins',
+  weight: '400',
+});
 
-export default function Home() {
+export default function RootLayout({ children }) {
   return (
-<></>
-  )
+    <>
+      <html lang="en">
+        <body className={` ${poppins.variable}`}>
+          {children}
+        </body>
+      </html>
+    </>
+  );
 }
